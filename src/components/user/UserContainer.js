@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import UserForm from './UserForm';
+import SignupForm from '../signup/SignupForm';
 
 const UserContainer = () => {
 
@@ -9,7 +9,7 @@ const UserContainer = () => {
     return (
         <>
             <button type="submit" onClick={() => setToggle(!toggle)}>{toggle === true? 'Close Form' : 'Sign Up'}</button>
-            {toggle && <UserForm/>}
+            {toggle && <SignupForm/>}
         </>
     )
 };
