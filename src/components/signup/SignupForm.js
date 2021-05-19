@@ -1,6 +1,6 @@
 import React from 'react';
 
-const UserForm = () => {
+const SignupForm = () => {
     return (
         <div>
             <h1>User Signup</h1>
@@ -21,11 +21,11 @@ const UserForm = () => {
                     <label>Password</label>
                     <input type="text"/>
                 </div>
-
+               
                 <button type="submit" className="ui button">Submit</button>
             </form>
         </div>
     )
 }
 
-export default UserForm;
+export default SignupForm;
