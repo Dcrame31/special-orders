@@ -1,0 +1,3 @@
+[submodule "special-orders-backend"]
+	path = special-orders-backend
+	url = https://github.com/Dcrame31/special-orders-backend.git
