@@ -5,6 +5,8 @@ const UserHome = () => {
         <>
             Welcome, Dianne!
             //include calendar, lists orders for the day, order form
+
+            //list of upcoming orders organized by date and time, alphabetized by last name 
         </>
     )
 };
